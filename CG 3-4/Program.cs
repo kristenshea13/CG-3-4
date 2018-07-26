@@ -23,8 +23,10 @@ namespace CG_3_4
 
             Console.Write("Would you like to add, subtract, multiply, or divide? Please choose one: ");
             string maths = Console.ReadLine();
-        
-            //assign name and type to answer of calculation, allowing for decimal places
+
+            //assign name and type to answer of calculation, used decimal to maintain consistency between two user-entered numbers and solution
+            //declare outside of if/else if statement code so i can use it to print to console at the end of program
+            //answer variable needed to be declared before it is first used in the first if statement
             decimal solution = 0;
             
             //if and else if statements that calculate user-entered numbers based on the action the user instructed the program to take
