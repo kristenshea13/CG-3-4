@@ -13,11 +13,11 @@ namespace CG_3_4
 
             Console.Write("Enter value for X: ");
             string x = Console.ReadLine();
-            double xNum = double.Parse(x);
+            decimal xNum = decimal.Parse(x);
 
             Console.Write("Enter value for Y: ");
             string y = Console.ReadLine();
-            double yNum = double.Parse(y);
+            decimal yNum = decimal.Parse(y);
 
             //prompt user for action that should be taken with the two numbers they entered.
 
@@ -25,7 +25,7 @@ namespace CG_3_4
             string maths = Console.ReadLine();
         
             //assign value for answer to calculation, allowing for decimal places
-            double solution = 0;
+            decimal solution = 0;
             
             //if and else if statements that calculate user-entered numbers based on the action the user instructed the program to take
 
@@ -48,7 +48,7 @@ namespace CG_3_4
 
             
             //print the answer to the console
-            Console.WriteLine("Answer: " + solution);
+            Console.WriteLine($"Answer: {solution}");
             Console.ReadLine();
 
 
