@@ -9,7 +9,7 @@ namespace CG_3_4
 
             Console.WriteLine("Basic Calculator");
 
-            //Prompt user for first value then convert from string to number, allowing for decimal places. repeated for 2nd value.
+            //Prompt user for first value, assign variable name, then convert from string to number, allowing for decimal places. repeated for 2nd value.
 
             Console.Write("Enter value for X: ");
             string x = Console.ReadLine();
@@ -19,12 +19,12 @@ namespace CG_3_4
             string y = Console.ReadLine();
             decimal yNum = decimal.Parse(y);
 
-            //prompt user for action that should be taken with the two numbers they entered.
+            //prompt user for action that should be taken with the two numbers they entered and assign variable name to it.
 
             Console.Write("Would you like to add, subtract, multiply, or divide? Please choose one: ");
             string maths = Console.ReadLine();
         
-            //assign value for answer to calculation, allowing for decimal places
+            //assign name and type to answer of calculation, allowing for decimal places
             decimal solution = 0;
             
             //if and else if statements that calculate user-entered numbers based on the action the user instructed the program to take
